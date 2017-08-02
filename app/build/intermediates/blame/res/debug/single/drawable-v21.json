@@ -1,10 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\sourrask\\Downloads\\ThermoRedoAn\\ThermostatRedo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\sourrask\\.android\\build-cache\\fa0ee8261279668846e42c4333037def4b530c49\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\3eddd0cdc7c2072008a02ffcb222ac2d747908d3\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\sourrask\\Downloads\\ThermoRedoAn\\ThermostatRedo-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\sourrask\\.android\\build-cache\\fa0ee8261279668846e42c4333037def4b530c49\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\17068db7a61bf2db0e19c5e1e25251aa7e4a53da\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\17068db7a61bf2db0e19c5e1e25251aa7e4a53da\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\3eddd0cdc7c2072008a02ffcb222ac2d747908d3\\output\\res\\drawable-v21\\notification_action_background.xml"
     }
 ]

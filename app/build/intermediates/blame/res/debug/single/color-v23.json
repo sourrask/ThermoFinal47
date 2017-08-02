@@ -1,6 +1,42 @@
 [
     {
-        "merged": "C:\\Users\\sourrask\\Downloads\\ThermoRedoAn\\ThermostatRedo-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "C:\\Users\\sourrask\\.android\\build-cache\\fa0ee8261279668846e42c4333037def4b530c49\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\3eddd0cdc7c2072008a02ffcb222ac2d747908d3\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\3eddd0cdc7c2072008a02ffcb222ac2d747908d3\\output\\res\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\3eddd0cdc7c2072008a02ffcb222ac2d747908d3\\output\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\3eddd0cdc7c2072008a02ffcb222ac2d747908d3\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\3eddd0cdc7c2072008a02ffcb222ac2d747908d3\\output\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\3eddd0cdc7c2072008a02ffcb222ac2d747908d3\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\3eddd0cdc7c2072008a02ffcb222ac2d747908d3\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\17068db7a61bf2db0e19c5e1e25251aa7e4a53da\\output\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\3eddd0cdc7c2072008a02ffcb222ac2d747908d3\\output\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\Stan\\.android\\build-cache\\3eddd0cdc7c2072008a02ffcb222ac2d747908d3\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
     }
 ]

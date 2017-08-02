@@ -1,4 +1,4 @@
-#Wed Aug 02 13:19:59 CEST 2017
-base.0=C\:\\Users\\sourrask\\Downloads\\ThermoRedoAn\\ThermostatRedo-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
+#Wed Aug 02 15:10:29 CEST 2017
+base.0=C\:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
 renamed.0=classes.dex
-file.0=C\:\\Users\\sourrask\\Downloads\\ThermoRedoAn\\ThermostatRedo-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex
+file.0=C\:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

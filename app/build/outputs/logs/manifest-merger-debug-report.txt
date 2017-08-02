@@ -1,102 +1,102 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:4:5-40
-		INJECTED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:4:5-40
+		INJECTED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:9:5-28:19
-MERGED from [com.orhanobut:simplelistview:1.3] C:\Users\sourrask\.android\build-cache\4d6157ee2a21b9aec7ca26aa82cc85c151fee2fb\output\AndroidManifest.xml:11:5-12:19
-MERGED from [com.android.support:design:23.1.1] C:\Users\sourrask\.android\build-cache\b6c6fa28da1ab93b76f6d72953c2e54c3084df1c\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\sourrask\.android\build-cache\fa0ee8261279668846e42c4333037def4b530c49\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.0.1] C:\Users\sourrask\.android\build-cache\621f31337334393333885d6f63138331459f2aa7\output\AndroidManifest.xml:22:5-20
-MERGED from [com.quentindommerc.superlistview:library:1.5.2] C:\Users\sourrask\.android\build-cache\a1b7446cdb11cbf045fd781045537bc48725531f\output\AndroidManifest.xml:4:5-6:19
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\afee870061c7fb67fe952d63c66fd5241f364a78\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\c830ee7cab243ac34a111c2699019b4610b6884c\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\f2aee7f92eb2131ed8f341ed7dee696a87be9e02\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\c04fa28edba076a510533b174e58894685c120f8\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\1b9dbaf1e5a646b327477f07a7f0f395823f8c86\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\6716baea94887fc89e58369fcc23e2d65ae84973\output\AndroidManifest.xml:29:5-20
+ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:9:5-28:19
+MERGED from [com.orhanobut:simplelistview:1.3] C:\Users\Stan\.android\build-cache\253dabff9d742bbd8179ae22b82af7fcfeae7613\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:23.1.1] C:\Users\Stan\.android\build-cache\4db10ec0c282a6e65014deb9e9c81eecc5739b4d\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Stan\.android\build-cache\17068db7a61bf2db0e19c5e1e25251aa7e4a53da\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.0.1] C:\Users\Stan\.android\build-cache\85e9146e104d70d6fc7cad510bba2581b39c421b\output\AndroidManifest.xml:22:5-20
+MERGED from [com.quentindommerc.superlistview:library:1.5.2] C:\Users\Stan\.android\build-cache\a7a5dcaeba04c3e7dbe51e03198bcc16dd49a8d8\output\AndroidManifest.xml:4:5-6:19
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\e0b2a5f1faa6524d0f5588b65499a697f7b40117\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\a23019c58e50b3892c6a511fa04a801a10ac3fe0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\52992758dac502ad5d37906373036f8788d605c3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\b6770b97a90740fc82e40074c6642c28973bbe9a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\e0c869551bca9e4d5326fadb390f95eb23090448\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\6e20c324f16e42fc6de3f4e8aa1f85575c2b99fb\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:12:9-41
 	android:supportsRtl
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:13:9-35
 	android:allowBackup
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:10:9-35
 	android:icon
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:11:9-56
-		REJECTED from [com.quentindommerc.superlistview:library:1.5.2] C:\Users\sourrask\.android\build-cache\a1b7446cdb11cbf045fd781045537bc48725531f\output\AndroidManifest.xml:4:45-81
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:11:9-56
+		REJECTED from [com.quentindommerc.superlistview:library:1.5.2] C:\Users\Stan\.android\build-cache\a7a5dcaeba04c3e7dbe51e03198bcc16dd49a8d8\output\AndroidManifest.xml:4:45-81
 	android:theme
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:14:9-40
 	tools:replace
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:15:9-37
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:15:9-37
 activity#nl.tue.student.thermostat.MainActivity
-ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:16:9-23:20
+ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:16:9-23:20
 	android:screenOrientation
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:17:13-49
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:17:13-49
 	android:name
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:16:19-47
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:21:27-74
 activity#nl.tue.student.thermostat.Day
-ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:24:9-27:25
+ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:24:9-27:25
 	android:label
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:26:13-32
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:26:13-32
 	android:name
-		ADDED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml:25:13-32
+		ADDED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml:25:13-32
 uses-sdk
-INJECTED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.orhanobut:simplelistview:1.3] C:\Users\sourrask\.android\build-cache\4d6157ee2a21b9aec7ca26aa82cc85c151fee2fb\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:23.1.1] C:\Users\sourrask\.android\build-cache\b6c6fa28da1ab93b76f6d72953c2e54c3084df1c\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\sourrask\.android\build-cache\fa0ee8261279668846e42c4333037def4b530c49\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.0.1] C:\Users\sourrask\.android\build-cache\621f31337334393333885d6f63138331459f2aa7\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\sourrask\.android\build-cache\93cf283e83dcd52c3f8689db5a70df3de755a2ad\output\AndroidManifest.xml:20:5-43
-MERGED from [com.quentindommerc.superlistview:library:1.5.2] C:\Users\sourrask\.android\build-cache\a1b7446cdb11cbf045fd781045537bc48725531f\output\AndroidManifest.xml:2:5-72
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\afee870061c7fb67fe952d63c66fd5241f364a78\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\c830ee7cab243ac34a111c2699019b4610b6884c\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\f2aee7f92eb2131ed8f341ed7dee696a87be9e02\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\c04fa28edba076a510533b174e58894685c120f8\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\1b9dbaf1e5a646b327477f07a7f0f395823f8c86\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\6716baea94887fc89e58369fcc23e2d65ae84973\output\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.orhanobut:simplelistview:1.3] C:\Users\Stan\.android\build-cache\253dabff9d742bbd8179ae22b82af7fcfeae7613\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:23.1.1] C:\Users\Stan\.android\build-cache\4db10ec0c282a6e65014deb9e9c81eecc5739b4d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Stan\.android\build-cache\17068db7a61bf2db0e19c5e1e25251aa7e4a53da\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.0.1] C:\Users\Stan\.android\build-cache\85e9146e104d70d6fc7cad510bba2581b39c421b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\Stan\.android\build-cache\f5f375934acdf05c7a3a00dc004c96dcaba72c6a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.quentindommerc.superlistview:library:1.5.2] C:\Users\Stan\.android\build-cache\a7a5dcaeba04c3e7dbe51e03198bcc16dd49a8d8\output\AndroidManifest.xml:2:5-72
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\e0b2a5f1faa6524d0f5588b65499a697f7b40117\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\a23019c58e50b3892c6a511fa04a801a10ac3fe0\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\52992758dac502ad5d37906373036f8788d605c3\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\b6770b97a90740fc82e40074c6642c28973bbe9a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\e0c869551bca9e4d5326fadb390f95eb23090448\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\6e20c324f16e42fc6de3f4e8aa1f85575c2b99fb\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\afee870061c7fb67fe952d63c66fd5241f364a78\output\AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\e0b2a5f1faa6524d0f5588b65499a697f7b40117\output\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		INJECTED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Stan\Desktop\final\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\afee870061c7fb67fe952d63c66fd5241f364a78\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\c830ee7cab243ac34a111c2699019b4610b6884c\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\f2aee7f92eb2131ed8f341ed7dee696a87be9e02\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\c04fa28edba076a510533b174e58894685c120f8\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\1b9dbaf1e5a646b327477f07a7f0f395823f8c86\output\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\6716baea94887fc89e58369fcc23e2d65ae84973\output\AndroidManifest.xml:25:5-27:41
+ADDED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\e0b2a5f1faa6524d0f5588b65499a697f7b40117\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\a23019c58e50b3892c6a511fa04a801a10ac3fe0\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\52992758dac502ad5d37906373036f8788d605c3\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\b6770b97a90740fc82e40074c6642c28973bbe9a\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\e0c869551bca9e4d5326fadb390f95eb23090448\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\6e20c324f16e42fc6de3f4e8aa1f85575c2b99fb\output\AndroidManifest.xml:25:5-27:41
 	android:value
-		ADDED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\afee870061c7fb67fe952d63c66fd5241f364a78\output\AndroidManifest.xml:27:9-38
+		ADDED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\e0b2a5f1faa6524d0f5588b65499a697f7b40117\output\AndroidManifest.xml:27:9-38
 	android:name
-		ADDED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\sourrask\.android\build-cache\afee870061c7fb67fe952d63c66fd5241f364a78\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Stan\.android\build-cache\e0b2a5f1faa6524d0f5588b65499a697f7b40117\output\AndroidManifest.xml:26:9-47

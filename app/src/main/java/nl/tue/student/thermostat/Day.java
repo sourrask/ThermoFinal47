@@ -62,7 +62,7 @@ public class Day extends AppCompatActivity {
             day = extras.getString("day");
         }
         toolbar.setTitle(day);
-        System.out.println("Called oncreate for: " + day);
+
 
         setSupportActionBar(toolbar);
 
@@ -124,7 +124,7 @@ public class Day extends AppCompatActivity {
                     //Thread.sleep(500);
                     while(!superList.isAttachedToWindow()) {
                         Thread.sleep(10);
-                        System.out.println("Waited 10 milliseconds so that the window can be attached to the superlist!");
+
                     }
                     final WeekProgram weekprogram = HeatingSystem.getWeekProgram();
                     todaysSwitches = weekprogram.data.get(day);
@@ -138,7 +138,7 @@ public class Day extends AppCompatActivity {
                             daysAvailable = true;
                         }
                     }
-                    System.out.println("nightsAvailable: " + nightsAvailable + ", daysAvailable: " + daysAvailable);
+
 
                     superList.post(new Runnable() {
                         @Override

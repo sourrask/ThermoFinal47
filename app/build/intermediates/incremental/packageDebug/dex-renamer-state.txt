@@ -1,7 +1,7 @@
-#Wed Aug 02 12:25:26 CEST 2017
-base.0=C\:\\Users\\sourrask\\Downloads\\ThermoRedoAn\\ThermostatRedo-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_63850330a15c48b379bd0378a78f18614af9b89b
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\sourrask\\Downloads\\ThermoRedoAn\\ThermostatRedo-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7d786f221849b7922d963f92a9338557e8e583be\\classes.dex
-base.1=C\:\\Users\\sourrask\\Downloads\\ThermoRedoAn\\ThermostatRedo-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7d786f221849b7922d963f92a9338557e8e583be
-file.0=C\:\\Users\\sourrask\\Downloads\\ThermoRedoAn\\ThermostatRedo-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_63850330a15c48b379bd0378a78f18614af9b89b\\classes.dex
+#Wed Aug 02 14:56:21 CEST 2017
+base.0=C\:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_2b086b5bb0560973a9cbf929ec7a2dc81697b04f
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_66d8cb38bc9a518e7c55c997574d0463b62eb25d\\classes.dex
+base.1=C\:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_66d8cb38bc9a518e7c55c997574d0463b62eb25d
+file.0=C\:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_2b086b5bb0560973a9cbf929ec7a2dc81697b04f\\classes.dex

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\sourrask\\Downloads\\ThermoRedoAn\\ThermostatRedo-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+        "outputFile": "C:\\Users\\Stan\\Desktop\\final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "C:\\Users\\sourrask\\.android\\build-cache\\fa0ee8261279668846e42c4333037def4b530c49\\output\\res\\values-w480dp\\values-w480dp.xml",
+                    "file": "C:\\Users\\Stan\\.android\\build-cache\\17068db7a61bf2db0e19c5e1e25251aa7e4a53da\\output\\res\\values-w480dp\\values-w480dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\sourrask\\.android\\build-cache\\fa0ee8261279668846e42c4333037def4b530c49\\output\\res\\values-w480dp\\values-w480dp.xml",
+                    "file": "C:\\Users\\Stan\\.android\\build-cache\\17068db7a61bf2db0e19c5e1e25251aa7e4a53da\\output\\res\\values-w480dp\\values-w480dp.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

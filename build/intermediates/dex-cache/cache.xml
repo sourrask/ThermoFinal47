@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Stan\Desktop\final\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_63850330a15c48b379bd0378a78f18614af9b89b\classes.dex" />
+        <dex dex="C:\Users\Stan\Desktop\final\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2b086b5bb0560973a9cbf929ec7a2dc81697b04f\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Stan\Desktop\final\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="0dd6d2aae49f874456d41337c0f71b2945958419">
-        <dex dex="C:\Users\sourrask\Downloads\ThermoRedoAn\ThermostatRedo-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7d786f221849b7922d963f92a9338557e8e583be\classes.dex" />
+        sha1="81e80d900860e12d99a091430895b3dfe0bf29e3">
+        <dex dex="C:\Users\Stan\Desktop\final\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_66d8cb38bc9a518e7c55c997574d0463b62eb25d\classes.dex" />
     </item>
 
 </items>
