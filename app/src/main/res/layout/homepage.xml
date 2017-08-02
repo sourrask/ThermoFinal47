@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:seekarc="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#dbd8d8">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view1"
+        android:layout_gravity="top"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        card_view:cardElevation="1dp"
+        card_view:cardBackgroundColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/card_view"
+        android:layout_marginTop="5dp"
+        android:layout_margin="16dp"
+        android:foregroundGravity="top"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/currentDay"
+            android:textSize="16dp"
+            android:layout_marginBottom="100dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorTextSecondary"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/currentTime"
+            android:textSize="20dp"
+            android:layout_marginStart="162dp"
+            android:layout_marginTop="70dp"
+            android:textColor="@color/colorTextSecondary"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TARGET TEMP"
+            android:textSize="15dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="114dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="40dp"
+            android:textColor="@color/colorTextSecondary"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/targetTemp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ROOM TEMP"
+            android:textSize="15dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="190dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/currentTemp"
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="126dp"
+            android:textColor="@color/colorTextSecondary" />
+
+
+        <nl.tue.student.thermostat.SeekArc
+            android:id="@+id/seekArc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="30dp"
+            android:layout_above="@+id/card_view"
+            seekarc:targetApi="LOLLIPOP"
+            android:translationZ="@dimen/abc_action_bar_content_inset_material" />
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="2dp"
+        card_view:cardBackgroundColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:id="@+id/noSchedule"
+            android:src="@drawable/noschedule"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_height="160dp"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/header"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:focusableInTouchMode="false"/>
+
+
+        <include layout="@layout/upcoming_changes_list_item0"
+            android:id="@+id/upcomingChangesList0"
+            seekarc:listitem="@android:layout/simple_list_item_1"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_height="160dp"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/header"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:focusableInTouchMode="false" />
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/upcomingChangesList"
+            android:layout_gravity="left"
+            android:layout_margin="5dp"
+            android:text="@string/upcoming_temp_changes"
+            android:textSize="20dp" />
+
+        <ToggleButton
+            android:id="@+id/ToggleButton"
+            style="@android:style/Widget.Material.Button.Toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/card_view"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right"
+            android:checked="false"
+            android:minWidth="60dp"
+            android:text="Use Schedule"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageButtonUp"
+        android:background="@drawable/up"
+        android:contextClickable="false"
+        android:translationZ="@dimen/abc_action_bar_overflow_padding_end_material"
+        android:layout_alignBottom="@+id/card_view1"
+        android:layout_toEndOf="@+id/imageButtonDown"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="15dp"/>
+
+
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageButtonDown"
+        android:translationZ="@dimen/abc_action_bar_content_inset_material"
+        android:background="@drawable/down"
+        android:layout_marginStart="142dp"
+        android:layout_alignTop="@+id/imageButtonUp"
+        android:layout_alignStart="@+id/card_view1" />
+
+
+</RelativeLayout>
+
+
+

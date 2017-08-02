@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp" android:layout_height="500dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repeat on:"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:id="@+id/copytuesday"
+        android:text="Tuesday"
+        android:layout_below="@+id/copymonday"
+        android:layout_alignStart="@+id/copymonday" />
+
+    <Button
+        android:id="@+id/copymonday"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/copywednesday"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Wednesday"
+        android:layout_below="@+id/copytuesday"
+        android:layout_alignStart="@+id/copytuesday"
+        android:layout_marginTop="9dp" />
+
+    <Button
+        android:id="@+id/copysaturday"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Saturday"
+        android:layout_below="@+id/copyfriday"
+        android:layout_alignStart="@+id/copyfriday" />
+
+    <Button
+        android:id="@+id/copythursday"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Thursday"
+        android:layout_below="@+id/copywednesday"
+        android:layout_alignStart="@+id/copywednesday"
+        android:layout_marginTop="7dp" />
+
+    <Button
+        android:id="@+id/copybackbutton"
+        android:layout_width="fill_parent"
+        android:text="Back"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/copysunday"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Sunday"
+        android:layout_alignStart="@+id/copysaturday"
+        android:layout_below="@+id/copysaturday"
+        android:layout_marginTop="7dp" />
+
+    <Button
+        android:id="@+id/copyfriday"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Friday"
+        android:layout_below="@+id/copythursday"
+        android:layout_alignStart="@+id/copythursday" />
+</RelativeLayout>

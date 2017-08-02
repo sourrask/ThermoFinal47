@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorDevider">#b6b6b6</color>
+    <color name="colorTextSecondary">#333333</color>
+    <color name="colorTextPrimary">#333333</color>
+    <color name="colorTextIcons">#ffffff</color>
+    <color name="colorPrimaryLight">#ffffff</color>
+    <color name="colorPrimary">#0c5cc6</color>
+    <color name="colorPrimaryDark">#216289</color>
+    <color name="colorAccent">#fff651</color>
+    <color name="progress_gray">#FFD8D8D8</color>
+    <color name="progress_gray_dark">#FF383838</color>
+    <color name="default_blue_light">#ff33b5e5</color>
+</resources>

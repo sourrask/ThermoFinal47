@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="upcoming_temp_changes">Today\'s Switches</string>
+    <string name="title_activity_monday">Monday</string>
+    <string name="schedule">Click on a day to see the schedule</string>
+</resources>
