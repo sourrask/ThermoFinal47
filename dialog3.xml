@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="550dp"
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="0dp"
+        />
+
+
+    <nl.tue.student.thermostat.NumberPicker
+        android:id="@+id/numberPicker3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="74dp" />
+
+    <nl.tue.student.thermostat.NumberPicker
+        android:id="@+id/numberPicker4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="150dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pick a Time"
+        android:id="@+id/textView55"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=":"
+        android:id="@+id/textView66"
+        android:layout_marginTop="123dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/left_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="74dp"
+        android:background="@drawable/day" />
+
+    <ImageView
+        android:id="@+id/arrow_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/aend" />
+
+    <ImageView
+        android:id="@+id/right_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="176dp"
+        android:background="@drawable/night" />
+
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/left_icon"
+        android:layout_centerHorizontal="true"
+        android:onClick="onCheckboxClicked"
+        />
+
+    <CheckBox
+        android:id="@+id/mondaycheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:layout_below="@+id/button7"
+        android:layout_alignEnd="@+id/left_icon"
+        android:onClick="onCheckboxClicked"
+
+        />
+
+    <CheckBox
+        android:id="@+id/tuesdaycheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuesday"
+        android:layout_alignBaseline="@+id/fridaycheck"
+        android:layout_alignBottom="@+id/fridaycheck"
+        android:layout_alignStart="@+id/mondaycheck"
+        android:onClick="onCheckboxClicked"
+
+        />
+
+    <CheckBox
+        android:id="@+id/wednesdaycheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Wednesday"
+        android:layout_below="@+id/tuesdaycheck"
+        android:layout_alignStart="@+id/tuesdaycheck"
+        android:onClick="onCheckboxClicked"
+
+        />
+
+    <CheckBox
+        android:id="@+id/thursdaycheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/mondaycheck"
+        android:layout_below="@id/button7"
+        android:layout_marginLeft="60dp"
+        android:text="Thursday"
+        android:onClick="onCheckboxClicked"
+        />
+
+    <CheckBox
+        android:id="@+id/fridaycheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thursdaycheck"
+        android:layout_alignStart="@id/thursdaycheck"
+        android:layout_marginTop="8dp"
+        android:text="Friday"
+        android:onClick="onCheckboxClicked"
+
+        />
+
+    <CheckBox
+        android:id="@+id/saturdaycheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saturday"
+
+        android:layout_alignBaseline="@+id/wednesdaycheck"
+        android:layout_alignBottom="@+id/wednesdaycheck"
+        android:layout_alignStart="@+id/fridaycheck"
+        android:onClick="onCheckboxClicked"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sundaycheck"
+        android:layout_below="@id/wednesdaycheck"
+        android:layout_marginStart="100dp"
+        android:text="Sunday"
+        android:onClick="onCheckboxClicked"
+        />
+
+
+
+
+</RelativeLayout>
