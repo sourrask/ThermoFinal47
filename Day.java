@@ -305,8 +305,10 @@ public class Day extends AppCompatActivity {
                         if(!duplicate) {
                             uploadData(-1, choice, true);
                         }else{
+                            uploadData(-2, choice, true);
                             Snackbar.make(fab.getRootView(), "There is already a change at this time!", Snackbar.LENGTH_LONG)
                                     .setAction("Action", null).show();
+
                         }
                         addDialog.dismiss();
                     }
@@ -351,6 +353,7 @@ public class Day extends AppCompatActivity {
                     ArrayList<Switch> sundayswitched = weekprogram.data.get(daysunday);
                     int newPosition = 0;
                     if(position == -1) {
+                        //// TODO: na dw an duolevei vazontas na trexei ayto to kommati gia ola me mtavliti glag
                         for (int i = 0; i < todaysSwitches.size(); i++) {
                             if (todaysSwitches.get(i).getType().equals(type) && !todaysSwitches.get(i).getState()){
                                 newPosition = i;
@@ -372,10 +375,11 @@ public class Day extends AppCompatActivity {
                         newType = type;
                     }
                     System.out.println("Day: " + day + ", position: " + newPosition + "time of position: " + todaysSwitches.get(newPosition).getTime() + ", type: " + newType + ", bool: " + bool + ", time:" + time);
+                   // if (!monday && !tuesday && !wednesday && !thursday && !friday && !saturday && !sunday)
                     weekprogram.data.get(day).set(newPosition,new Switch(newType,bool,time));
                     HeatingSystem.setWeekProgram(weekprogram);
                     newPosition=0;
-                    if (monday && !day.equals("Monday")){
+                        if (monday && !day.equals("Monday")) {
 
 //                        if(position == -1) {
 //                            for (int i = 0; i < mondaySwitches.size(); i++) {
@@ -390,10 +394,10 @@ public class Day extends AppCompatActivity {
 //                            }
 //                            newPosition = position + j;
 //                        }
-                        weekprogram.data.put(daymonday,mondayswitched).set(newPosition, new Switch(newType,bool,time));
-                        HeatingSystem.setWeekProgram(weekprogram);
-                    }
-                    if (tuesday && !day.equals("Tuesday")){
+                            weekprogram.data.put(daymonday, mondayswitched).set(newPosition, new Switch(newType, bool, time));
+                            HeatingSystem.setWeekProgram(weekprogram);
+                        }
+                        if (tuesday && !day.equals("Tuesday")) {
 //                        if(position == -1) {
 //                            for (int i = 0; i < tuesdaySwitches.size(); i++) {
 //                                if (tuesdaySwitches.get(i).getType().equals(type) && !tuesdaySwitches.get(i).getState()){
@@ -407,10 +411,10 @@ public class Day extends AppCompatActivity {
 //                            }
 //                            newPosition = position + j;
 //                        }
-                        weekprogram.data.put(daytuesday,tuesdayswitched).set(newPosition, new Switch(newType,bool,time));
-                        HeatingSystem.setWeekProgram(weekprogram);
-                    }
-                    if (wednesday && !day.equals("Wednesday")){
+                            weekprogram.data.put(daytuesday, tuesdayswitched).set(newPosition, new Switch(newType, bool, time));
+                            HeatingSystem.setWeekProgram(weekprogram);
+                        }
+                        if (wednesday && !day.equals("Wednesday")) {
 //                        if(position == -1) {
 //                            for (int i = 0; i < wednesdaySwitches.size(); i++) {
 //                                if (wednesdaySwitches.get(i).getType().equals(type) && !wednesdaySwitches.get(i).getState()){
@@ -424,10 +428,10 @@ public class Day extends AppCompatActivity {
 //                            }
 //                            newPosition = position + j;
 //                        }
-                        weekprogram.data.put(daywednesday,wednesdayswitched).set(newPosition, new Switch(newType,bool,time));
-                        HeatingSystem.setWeekProgram(weekprogram);
-                    }
-                    if (thursday && !day.equals("Thursday")){
+                            weekprogram.data.put(daywednesday, wednesdayswitched).set(newPosition, new Switch(newType, bool, time));
+                            HeatingSystem.setWeekProgram(weekprogram);
+                        }
+                        if (thursday && !day.equals("Thursday")) {
 //                        if(position == -1) {
 //                            for (int i = 0; i < thursdaySwitches.size(); i++) {
 //                                if (thursdaySwitches.get(i).getType().equals(type) && !thursdaySwitches.get(i).getState()){
@@ -441,10 +445,11 @@ public class Day extends AppCompatActivity {
 //                            }
 //                            newPosition = position + j;
 //                        }
-                        weekprogram.data.put(daythursday,thursdayswitched).set(newPosition, new Switch(newType,bool,time));
-                        HeatingSystem.setWeekProgram(weekprogram);
-                    }
-                    if (friday && !day.equals("Friday")){
+                            weekprogram.data.put(daythursday, thursdayswitched).set(newPosition, new Switch(newType, bool, time));
+                            HeatingSystem.setWeekProgram(weekprogram);
+                        }
+                        if (friday && !day.equals("Friday")) {
+
 //                        if(position == -1) {
 //                            for (int i = 0; i < fridaySwitches.size(); i++) {
 //                                if (fridaySwitches.get(i).getType().equals(type) && !fridaySwitches.get(i).getState()){
@@ -458,10 +463,10 @@ public class Day extends AppCompatActivity {
 //                            }
 //                            newPosition = position + j;
 //                        }
-                        weekprogram.data.put(dayfriday,fridayswitched).set(newPosition, new Switch(newType,bool,time));
-                        HeatingSystem.setWeekProgram(weekprogram);
-                    }
-                    if (saturday && !day.equals("Saturday")){
+                            weekprogram.data.put(dayfriday, fridayswitched).set(newPosition, new Switch(newType, bool, time));
+                            HeatingSystem.setWeekProgram(weekprogram);
+                        }
+                        if (saturday && !day.equals("Saturday")) {
 //                        if(position == -1) {
 //                            for (int i = 0; i < saturdaySwitches.size(); i++) {
 //                                if (saturdaySwitches.get(i).getType().equals(type) && !saturdaySwitches.get(i).getState()){
@@ -475,10 +480,10 @@ public class Day extends AppCompatActivity {
 //                            }
 //                            newPosition = position + j;
 //                        }
-                        weekprogram.data.put(daysaturday,saturdayswitched).set(newPosition, new Switch(newType,bool,time));
-                        HeatingSystem.setWeekProgram(weekprogram);
-                    }
-                    if (sunday && !day.equals("Sunday")){
+                            weekprogram.data.put(daysaturday, saturdayswitched).set(newPosition, new Switch(newType, bool, time));
+                            HeatingSystem.setWeekProgram(weekprogram);
+                        }
+                        if (sunday && !day.equals("Sunday")) {
 //                        if(position == -1) {
 //                            for (int i = 0; i < sundaySwitches.size(); i++) {
 //                                if (sundaySwitches.get(i).getType().equals(type) && !sundaySwitches.get(i).getState()){
@@ -492,9 +497,9 @@ public class Day extends AppCompatActivity {
 //                            }
 //                            newPosition = position + j;
 //                        }
-                        weekprogram.data.put(daysunday,sundayswitched).set(newPosition, new Switch(newType,bool,time));
-                        HeatingSystem.setWeekProgram(weekprogram);
-                    }
+                            weekprogram.data.put(daysunday, sundayswitched).set(newPosition, new Switch(newType, bool, time));
+                            HeatingSystem.setWeekProgram(weekprogram);
+                        }
 
 
                 }catch (Exception e){
