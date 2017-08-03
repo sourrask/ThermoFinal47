@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:seekarc="http://schemas.android.com/tools"
+    android:background="#dbd8d8">
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_guideline"
+        app:layout_constraintGuide_percent=".05"
+        android:orientation="vertical"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/center_guideline"
+        app:layout_constraintGuide_percent=".50"
+        android:orientation="vertical"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_guideline"
+        app:layout_constraintGuide_percent=".95"
+        android:orientation="vertical"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/top_guideline"
+        app:layout_constraintGuide_percent="0.05"
+        android:orientation="horizontal"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/top2_guideline"
+        app:layout_constraintGuide_percent=".5"
+        android:orientation="horizontal"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/top3_guideline"
+        app:layout_constraintGuide_percent=".18"
+        android:orientation="horizontal"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_guideline"
+        app:layout_constraintGuide_percent="1"
+        android:orientation="horizontal"/>
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view1"
+        android:layout_gravity="top"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        card_view:cardElevation="1dp"
+        card_view:cardBackgroundColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintTop_toTopOf="@+id/top_guideline"
+        app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
+        app:layout_constraintRight_toRightOf="@+id/right_guideline"
+        android:foregroundGravity="top">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAlignment="center"
+            android:id="@+id/currentDay"
+            android:textSize="16dp"
+            android:textColor="@color/colorTextSecondary"
+            android:layout_marginTop="30dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/currentTime"
+            android:textSize="16dp"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorTextSecondary"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TARGET TEMP"
+            android:layout_gravity="center"
+            android:layout_marginBottom="45dp"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textColor="@color/colorTextSecondary"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/targetTemp"
+            android:gravity="center"
+            android:layout_marginBottom="55dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ROOM TEMP"
+            android:gravity="center"
+            android:layout_marginTop="45dp"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/currentTemp"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginTop="85dp"
+            android:textColor="@color/colorTextSecondary" />
+
+
+                <nl.tue.student.thermostat.SeekArc
+            android:id="@+id/seekArc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="30dp"
+            android:layout_above="@+id/card_view"
+            seekarc:targetApi="LOLLIPOP"
+            android:translationZ="@dimen/abc_action_bar_content_inset_material" />
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="2dp"
+        card_view:cardBackgroundColor="#ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/card_view1"
+        app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
+        app:layout_constraintRight_toRightOf="@+id/right_guideline"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_guideline"
+        >
+
+        <ImageView
+            android:id="@+id/noSchedule"
+            android:src="@drawable/noschedule"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_height="160dp"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/header"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:focusableInTouchMode="false"/>
+
+
+        <include layout="@layout/upcoming_changes_list_item0"
+            android:id="@+id/upcomingChangesList0"
+            seekarc:listitem="@android:layout/simple_list_item_1"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_height="160dp"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/header"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:focusableInTouchMode="false" />
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/upcomingChangesList"
+            android:layout_gravity="left"
+            android:layout_margin="5dp"
+            android:text="@string/upcoming_temp_changes"
+            android:textSize="20dp" />
+
+        <ToggleButton
+            android:id="@+id/ToggleButton"
+            style="@android:style/Widget.Material.Button.Toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/card_view"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right"
+            android:checked="false"
+            android:minWidth="60dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageButtonUp"
+        android:background="@drawable/up"
+        android:clickable="true"
+        android:translationZ="1dp"
+        app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
+        app:layout_constraintRight_toRightOf="@+id/right_guideline"
+        app:layout_constraintHorizontal_bias="0.4"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toTopOf="@+id/top_guideline"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline"
+ />
+
+
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageButtonDown"
+        android:translationZ="1dp"
+        android:background="@drawable/down"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        app:layout_constraintLeft_toLeftOf="@+id/left_guideline"
+        app:layout_constraintRight_toRightOf="@+id/right_guideline"
+        app:layout_constraintTop_toTopOf="@+id/top_guideline"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline"
+        app:layout_constraintHorizontal_bias="0.6"
+ />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+

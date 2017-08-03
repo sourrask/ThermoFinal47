@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="300dp"
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="0dp"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Do you really want to delete:"
+        android:id="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Time and to what!"
+        android:id="@+id/textView8"
+        android:layout_below="@id/textView7"
+        android:layout_centerHorizontal="true"
+        />
+
+
+</RelativeLayout>
